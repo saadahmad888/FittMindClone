@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1200px){
+    
+}
+@media only screen and (max-width: 992px){
+    .top-nav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+    .main-banner-sec .img-box{
+        margin-bottom: 50px;
+    }
+    .main-banner-sec .img-box .img-short{
+        min-height: 360px;
+    }
+    .main-banner-sec .img-box .img-long{
+        min-height: 460px;
+    }
+    .main-banner-sec .heading h1{
+        font-size: 35px;
+    }
+    .main-banner-sec .primary-btn{
+        width: 90%!important;
+        display: block;
+        margin: 0 auto;
+    }
+    .main-banner-sec .name{
+        margin-bottom: 30px;
+    }
+    .footer-spacing{
+        height: 555px;
+    }
+    footer .newsletter-box{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 576px){
+    
+}
+@media only screen and (max-width: 400px){
+    
+}
