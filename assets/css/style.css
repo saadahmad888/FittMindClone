@@ -519,6 +519,234 @@ a {
 }
 
 
+
+/* =======================================================================
+    Personal Trainer Section CSS
+========================================================================== */
+.personal-trainer-sec{
+    background: linear-gradient(270deg, #20463B 0%, #266351 100%) !important;
+    /* background-color: var(--gray); */
+    padding: 100px 0 70px 0;
+}
+.personal-trainer-sec .text{
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.personal-trainer-sec .left-side .number{
+    margin-right: 10px;
+}
+.personal-trainer-sec .right-side .number{
+    margin-left: 10px;
+}
+.personal-trainer-sec .number span{
+    background-color: var(--white);
+    border-radius: 50rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.personal-trainer-sec .right-side,
+.personal-trainer-sec .left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Align items evenly along the vertical axis */
+    height: 100%;
+}
+.personal-trainer-sec .right-side{
+    text-align: end;
+}
+
+
+
+
+.insta-sec{
+    background-color: var(--white);
+    padding: 50px 0;
+}
+.insta-sec .container-fluid{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.insta-sec .insta-shot-item{
+    position: relative;
+    overflow: hidden;
+    border-radius: 32px;
+}
+.insta-sec .insta-shot-item .overlay{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(60px);
+    width: 100%;
+    background-color: var(--white);
+    text-align: center;
+    padding: 10px 0;
+    color: var(--wa);
+    font-size: 18px;
+    font-weight: 500;
+}
+.insta-sec .insta-shot-item:hover .overlay{
+    transform: translate(-50%, -50%) translateY(0px);
+}
+.insta-sec .insta-shot-item img{
+    border-radius: 32px;
+    transition: 0.3s all ease;
+}
+.insta-sec .insta-shot-item img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* =======================================================================
+    Sub Page Banner CSS
+========================================================================== */
+.sub-page-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('https://fittmind.com/panel/images/about/B9Wxy.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.sub-page-heading{
+    text-align: center;
+}
+.sub-page-heading h1{
+    color: var(--white);
+    font-size: 45px;
+    font-weight: 600;
+}
+.sub-page-heading .bread-crumbs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-page-heading .bread-crumbs a{
+    color: var(--white);
+    /* text-decoration: underline; */
+    font-size: 18px;
+    margin-right: 20px;
+}
+.sub-page-heading .bread-crumbs a:hover{
+    color: var(--wa);
+    text-decoration: underline;
+    margin-right: 25px;
+    letter-spacing: 0.5px;
+}
+.sub-page-heading .bread-crumbs span{
+    color: var(--white);
+    font-size: 18px;
+    margin-right: 20px;
+}
+.sub-page-heading .bread-crumbs p{
+    color: var(--white);
+    font-size: 18px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* =======================================================================
+    About Us Page CSS
+========================================================================== */
+.about-us-section{
+    background-color: var(--white);
+    padding: 100px 0 70px 0;
+}
+.about-us-section .img-box img{
+    border-radius: 32px;
+    width: 100%;
+}
+
+
+.ceo-message-sec{
+    background: linear-gradient(270deg, #20463B 0%, #266351 100%) !important;
+    padding: 100px 0 70px 0;
+}
+.ceo-message-sec .img-box img{
+    width: 100%;
+    border-radius: 32px;
+    border: 5px solid var(--white);
+}
+.ceo-message-sec .section-heading h2{
+    color: var(--white);
+}
+.ceo-message-sec .content-box .desc{
+    color: var(--white);
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.testimonal-sec{
+    background-color: var(--white);
+    padding: 100px 0 70px 0;
+}
+.testimonial-item{
+    text-align: center;
+
+}
+.testimonial-item .img-box{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-item .img-box img{
+    width: 100px;
+    border-radius: 50rem;
+    border: 5px solid var(--wa);
+}
+.testimonial-item .content-box .desc{
+    color: var(--black);
+    font-size: 16px;
+}
+.testimonial-item .content-box .name{
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 700;
+}
+#testimonal-slider{
+    position: relative;
+}
+#testimonal-slider .owl-nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    width: 100%;
+    justify-content: space-between;
+}
+#testimonal-slider .owl-nav button:hover{
+    background-color: transparent;
+    color: var(--black);
+}
+#testimonal-slider .owl-nav .owl-prev{
+    position: relative;
+    left: -50px;
+}
+#testimonal-slider .owl-nav .owl-next{
+    position: relative;
+    right: -50px;
+}
+
+
+
 /* =======================================================================
     Footer CSS
 ========================================================================== */
@@ -735,209 +963,6 @@ footer .newsletter-box .newsletter-input:focus-visible{
 
 
 
-
-
-
-
-/* =======================================================================
-    Expertly Section CSS
-========================================================================== */
-.expertly-sec{
-    background-color: #9fd9e7;
-    padding: 30px 0;
-}
-.expertly-sec .heading h2{
-    color: var(--white);
-    font-size: 60px;
-    margin-bottom: 0;
-    line-height: 75px;
-    font-weight: 500;
-}
-.expertly-sec .img-box img{
-    width: 100%;
-}
-
-
-
-
-
-/* =======================================================================
-    Build for you section CSS
-========================================================================== */
-.built-for-you-sec{
-    padding: 70px 0 50px 0;
-}
-.built-for-you-sec .item-box{
-    text-align: center;
-}
-.built-for-you-sec .item-box .name-box p{
-    color: var(--orange);
-    font-weight: 500;
-    font-size: 14px;
-    min-height: 40px;
-}
-.built-for-you-sec .item-box .img-box img{
-    width: 100%;
-    /* height: 150px; */
-    border-radius: 5px;
-}
-.built-for-you-sec .item-box .text-box{
-    position: relative;
-}
-.built-for-you-sec .item-box .text-box p{
-    color: var(--orange);
-    font-size: 25px;
-    font-weight: 700;
-    position: absolute;
-    bottom: -265px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.built-for-you-sec .title{
-    background-color: var(--sky);
-    padding: 10px 20px;
-    border-radius: 100px;
-    margin-left: auto;
-    width: fit-content;
-    width: 200px;
-    text-align: center;
-
-}
-.built-for-you-sec .title p{
-    font-size: 20px;
-    color: var(--white);
-    font-weight: 600;
-    margin-bottom: 0;
-}
-.built-for-you-sec .btn-black{
-    font-size: 14px;
-}
-
-
-
-/* =======================================================================
-    How it works section CSS
-========================================================================== */
-.how-it-works-sec{
-    background-color: var(--orange);
-    padding: 70px 0 40px 0;
-}
-.how-it-works-sec .item-box{
-    text-align: center;
-    margin-bottom: 30px;
-    position: relative;
-}
-.how-it-works-sec .item-box .number{
-    background-color: var(--white);
-    color: var(--orange);
-    text-align: center;
-    height: 35px;
-    width: 35px;
-    border-radius: 100px;
-    align-items: center;
-    vertical-align: middle;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 600;
-    padding-top: 3.5px;
-}
-.how-it-works-sec .item-box .inner-item-box{
-    border: 1px solid var(--white);
-    border-radius: 15px;
-    padding: 20px 30px;
-}
-.how-it-works-sec .item-box .inner-item-box img{
-    width: 107px;
-    height: 100px;
-    object-fit: cover;
-    object-position: center center;
-}
-.how-it-works-sec .item-box .inner-item-box .text{
-    color: var(--white);
-    font-weight: 600;
-    font-size: 16px;
-}
-
-
-
-
-/* =======================================================================
-    App Section CSS
-========================================================================== */
-.app-sec{
-    position: relative;
-    padding: 70px 0 40px 0;
-    background-color: var(--sky);
-}
-.app-sec .img-box{
-    position: relative;
-}
-.app-sec .img-box .img-1{
-    position: absolute;
-    left: 100px;
-    bottom: 50px;
-}
-.app-sec .img-box .img-2{
-    position: absolute;
-    left: 200px;
-    top: -265px;
-}
-.app-sec .img-box .img-3{
-    position: absolute;
-    left: 437px;
-    bottom: -60px;
-}
-.app-sec .img-box .img-4{
-    position: absolute;
-    left: 0px;
-    top: 12px;
-}
-.app-sec .content-box .title{
-    font-size: 35px;
-    color: var(--black);
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.app-sec .content-box .desc{
-    color: var(--heading-text);
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-}
-
-
-
-/* =======================================================================
-    Testimonal Sec CSS
-========================================================================== */
-.testimonals-sec{
-    padding: 50px 0 20px 0;
-}
-.testmonial-box{
-    margin-bottom: 30px;
-}
-.testmonial-box .name{
-    color: var(--black);
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-.testmonial-box .desc{
-    color: var(--black);
-    font-size: 17px;
-    font-weight: 400;
-    margin-bottom: 10px;
-    min-height: 130px;
-}
-.testmonial-box .rating-box{
-    margin-bottom: 20px;
-}
-.testmonial-box .rating-box i{
-    font-weight: bold;
-    color: #FFD800;
-}
 /* =======================================================================
     Custom ScrollBar CSS
 ========================================================================== */
