@@ -41,6 +41,17 @@
     .personal-trainer-sec .text{
         margin-bottom: 50px;
     }
+    #testimonal-slider .owl-nav .owl-prev{
+        position: relative;
+        left: 0px;
+    }
+    #testimonal-slider .owl-nav .owl-next{
+        position: relative;
+        right: 0px;
+    }
+    .contact-info-box{
+        margin-bottom: 40px;
+    }
 }
 @media only screen and (max-width: 576px){
     

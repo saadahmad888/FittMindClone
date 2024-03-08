@@ -747,6 +747,121 @@ a {
 
 
 
+
+
+
+
+
+/* =======================================================================
+    Contact Page CSS
+========================================================================== */
+.contact-from-main-sec{
+    padding: 100px 0;
+    background-color: #F5F5F5;
+}
+.contact-from-main-sec .contact-outer-box{
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 32px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, .04);
+}
+.contact-from-main-sec .contact-outer-box .contact-info-box{
+    background: linear-gradient(270deg, #20463B 0%, #266351 100%) !important;
+    border-radius: 32px;
+    padding: 40px 30px 20px 30px;
+}
+.contact-from-main-sec .contact-outer-box .contact-info-box .title{
+    color: var(--white);
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.contact-from-main-sec .contact-outer-box .contact-info-box .text{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.contact-from-main-sec .contact-outer-box .contact-info-box .info-box{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+.contact-from-main-sec .contact-outer-box .contact-info-box .info-box i{
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--white);
+}
+.contact-from-main-sec .contact-outer-box .contact-info-box .info-box a{
+    display: block;
+    width: 100%;
+    color: var(--white);
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+.contact-form .form-label{
+    margin-bottom: 10px;
+    color: var(--green);
+    font-size: 13px;
+    font-weight: 500;
+}
+.contact-form .form-control{
+    border: 0;
+    border-bottom: 1px solid var(--green);
+    border-radius: 0;
+    font-size: 13px;
+    color: var(--black);
+    font-style: italic;
+}
+.contact-form .form-control:focus{
+    border-color: var(--wa);
+    box-shadow: none;
+}
+
+
+
+
+.contact-from-main-sec .contact-outer-box .social-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.contact-from-main-sec .contact-outer-box .social-box a{
+    color: var(--white);
+    font-size: 20px;
+    margin: 0 10px;
+}
+.contact-from-main-sec .contact-outer-box .social-box a:hover{
+    color: var(--wa);
+}
+
+.google-map-box{
+    line-height: 0;
+}
+.google-map-box iframe{
+    filter: invert(0.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* =======================================================================
     Footer CSS
 ========================================================================== */
