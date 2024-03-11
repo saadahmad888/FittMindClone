@@ -846,7 +846,7 @@ a {
     line-height: 0;
 }
 .google-map-box iframe{
-    filter: invert(0.9);
+    filter: invert(1) brightness(0.6);
 }
 
 

@@ -52,6 +52,15 @@
     .contact-info-box{
         margin-bottom: 40px;
     }
+    .service-item .name-box{
+        transform: translate(0);
+    }
+    .about-us-section .img-box img{
+        margin-bottom: 30px;
+    }
+    .ceo-message-sec .img-box img{
+        margin-top: 30px;
+    }
 }
 @media only screen and (max-width: 576px){
     
