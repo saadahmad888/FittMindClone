@@ -65,6 +65,22 @@ a {
 }
 
 
+.primary-btn-simple{
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 50rem;
+    padding: 13px 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1em;
+    border: 1px solid var(--green);
+}
+.primary-btn-simple:hover{
+    background-color: var(--white);
+    color: var(--green);
+    border-color: var(--green);
+}
+
 
 
 .nav-link-btn {
@@ -568,6 +584,9 @@ a {
     background-color: var(--white);
     padding: 50px 0;
 }
+.insta-sec.green{
+    background-color: var(--green);
+}
 .insta-sec .container-fluid{
     padding-left: 50px;
     padding-right: 50px;
@@ -672,7 +691,6 @@ a {
     border-radius: 32px;
     width: 100%;
 }
-
 
 .ceo-message-sec{
     background: linear-gradient(270deg, #20463B 0%, #266351 100%) !important;
@@ -855,10 +873,24 @@ a {
 
 
 
-
-
-
-
+/* =======================================================================
+    Service Detail Page CSS
+========================================================================== */
+.about-us-section.also-service .section-heading{
+    margin-bottom: 30px;
+}
+.about-us-section.also-service .content-box .desc{
+    margin-bottom: 30px;
+}
+.option-in-sec{
+    padding-top: 100px;
+}
+.option-in-sec .diff-item-box .title{
+    color: var(--green);
+}
+.option-in-sec .diff-item-box{
+    min-height: 180px;
+}
 
 
 
