@@ -549,8 +549,8 @@ a {
 }
 .personal-trainer-sec .text{
     color: var(--white);
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     line-height: 27px;
 }
 .personal-trainer-sec .left-side .number{
@@ -578,6 +578,16 @@ a {
 }
 .personal-trainer-sec .right-side{
     text-align: end;
+}
+.personal-trainer-sec .left-side .pt-sec-item-box{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.personal-trainer-sec .right-side .pt-sec-item-box{
+    display: flex;
+    align-items: start;
+    justify-content: end;
 }
 
 
