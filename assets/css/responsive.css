@@ -41,6 +41,9 @@
     .personal-trainer-sec .text{
         margin-bottom: 50px;
     }
+    #testimonal-slider .owl-nav{
+        display: none;
+    }
     #testimonal-slider .owl-nav .owl-prev{
         position: relative;
         left: 0px;
@@ -60,6 +63,15 @@
     }
     .ceo-message-sec .img-box img{
         margin-top: 30px;
+    }
+    .about-us-section.also-service .primary-btn-simple{
+        display: block;
+    }
+    .section-heading h2 {
+        font-size: 30px;
+    }
+    .sub-page-heading h1 {
+        font-size: 35px;
     }
 }
 @media only screen and (max-width: 576px){
